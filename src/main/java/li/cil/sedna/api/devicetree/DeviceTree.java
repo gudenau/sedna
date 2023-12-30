@@ -3,7 +3,7 @@ package li.cil.sedna.api.devicetree;
 import li.cil.sedna.api.device.Device;
 import li.cil.sedna.devicetree.FlattenedDeviceTree;
 
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 import java.util.function.Consumer;
 
 public interface DeviceTree {

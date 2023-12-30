@@ -1,6 +1,6 @@
 package li.cil.sedna.utils;
 
-import javax.annotation.Nonnull;
+import org.jetbrains.annotations.NotNull;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.BufferOverflowException;
@@ -23,7 +23,7 @@ public final class ByteBufferOutputStream extends OutputStream {
     }
 
     @Override
-    public void write(@Nonnull final byte[] b, final int off, final int len) throws IOException {
+    public void write(@NotNull final byte[] b, final int off, final int len) throws IOException {
         try {
             buffer.put(b, off, len);
         } catch (final BufferOverflowException e) {

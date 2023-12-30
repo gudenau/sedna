@@ -7,7 +7,7 @@ import li.cil.sedna.api.device.rtc.RealTimeCounter;
 import li.cil.sedna.api.memory.MemoryMap;
 import li.cil.sedna.gdbstub.CPUDebugInterface;
 
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 
 public interface R5CPU extends Steppable, Resettable, RealTimeCounter, InterruptController {
     static R5CPU create(final MemoryMap physicalMemory, @Nullable final RealTimeCounter rtc) {

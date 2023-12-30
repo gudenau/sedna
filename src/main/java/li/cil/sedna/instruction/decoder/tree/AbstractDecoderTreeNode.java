@@ -4,7 +4,7 @@ import li.cil.sedna.instruction.InstructionDeclaration;
 import li.cil.sedna.instruction.decoder.DecoderTreeNodeArguments;
 import li.cil.sedna.instruction.decoder.DecoderTreeVisitor;
 
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 import java.util.stream.Stream;
 
 public abstract class AbstractDecoderTreeNode {

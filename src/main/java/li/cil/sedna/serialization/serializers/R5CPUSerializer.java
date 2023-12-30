@@ -8,7 +8,7 @@ import li.cil.ceres.api.Serializer;
 import li.cil.sedna.riscv.R5CPU;
 import li.cil.sedna.riscv.R5CPUGenerator;
 
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 
 public final class R5CPUSerializer implements Serializer<R5CPU> {
     @SuppressWarnings({"unchecked", "rawtypes"})

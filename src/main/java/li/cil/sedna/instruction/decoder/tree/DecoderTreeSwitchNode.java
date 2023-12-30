@@ -4,7 +4,7 @@ import li.cil.sedna.instruction.InstructionDeclaration;
 import li.cil.sedna.instruction.decoder.DecoderTreeSwitchVisitor;
 import li.cil.sedna.instruction.decoder.DecoderTreeVisitor;
 
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 
 public final class DecoderTreeSwitchNode extends AbstractDecoderTreeInnerNode {
     public DecoderTreeSwitchNode(final AbstractDecoderTreeNode[] children) {

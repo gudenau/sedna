@@ -8,7 +8,7 @@ import li.cil.ceres.api.Serializer;
 import li.cil.sedna.device.virtio.VirtIOFileSystemDevice.FileSystemFile;
 import li.cil.sedna.device.virtio.VirtIOFileSystemDevice.FileSystemFileMap;
 
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 
 public final class FileSystemFileMapSerializer implements Serializer<FileSystemFileMap> {
     @Override

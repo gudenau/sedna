@@ -23,7 +23,7 @@ import li.cil.sedna.riscv.device.R5SystemController;
 import li.cil.sedna.riscv.exception.R5SystemPowerOffException;
 import li.cil.sedna.riscv.exception.R5SystemResetException;
 
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;

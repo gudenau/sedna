@@ -5,7 +5,7 @@ import li.cil.ceres.api.SerializationException;
 import li.cil.ceres.api.SerializationVisitor;
 import li.cil.ceres.api.Serializer;
 
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 import java.util.BitSet;
 
 public final class BitSetSerializer implements Serializer<BitSet> {

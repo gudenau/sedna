@@ -4,7 +4,7 @@ import li.cil.ceres.api.Serialized;
 import li.cil.sedna.api.memory.MemoryAccessException;
 import li.cil.sedna.api.memory.MemoryMap;
 
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 
 public final class VirtIONetworkDevice extends AbstractVirtIODevice {
     private static final long VIRTIO_NET_F_CSUM = 1L << 0; // Device handles packets with partial checksum. This "checksum offload" is a common feature on modern network cards.

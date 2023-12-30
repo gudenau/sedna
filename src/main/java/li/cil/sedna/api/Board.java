@@ -7,7 +7,7 @@ import li.cil.sedna.api.device.Steppable;
 import li.cil.sedna.api.memory.MemoryMap;
 import li.cil.sedna.api.memory.MemoryRangeAllocationStrategy;
 
-import javax.annotation.Nullable;
+import org.jetbrains.annotations.Nullable;
 import java.util.OptionalLong;
 
 public interface Board extends Steppable, Resettable {

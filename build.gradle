@@ -34,8 +34,8 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'com.google.code.findbugs:jsr305:3.0.2'
-    testCompileOnly 'com.google.code.findbugs:jsr305:3.0.2'
+    compileOnly 'org.jetbrains:annotations:24.1.0'
+    testCompileOnly 'org.jetbrains:annotations:24.1.0'
 
     implementation 'commons-io:commons-io:2.11.0'
     implementation 'it.unimi.dsi:fastutil:8.5.6'
